@@ -3,7 +3,9 @@ https://docs.docker.com/desktop/setup/install/linux/debian/
 
 b] Set up Docker's apt repository
 # Add Docker's official GPG key:
+```
 sudo apt update
+```
 sudo apt-get install ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
